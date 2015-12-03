@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		594BBA601C103D4E004B0E6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 594BBA5F1C103D4E004B0E6D /* main.m */; };
+		594BBA631C103D4E004B0E6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 594BBA621C103D4E004B0E6D /* AppDelegate.m */; };
+		594BBA661C103D4E004B0E6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594BBA651C103D4E004B0E6D /* ViewController.m */; };
+		594BBA691C103D4E004B0E6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594BBA671C103D4E004B0E6D /* Main.storyboard */; };
+		594BBA6B1C103D4E004B0E6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594BBA6A1C103D4E004B0E6D /* Assets.xcassets */; };
+		594BBA6E1C103D4E004B0E6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594BBA6C1C103D4E004B0E6D /* LaunchScreen.storyboard */; };
+		594BBA791C103D4E004B0E6D /* CJKeyboardBarTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 594BBA781C103D4E004B0E6D /* CJKeyboardBarTextFieldTests.m */; };
+		594BBA841C103D4F004B0E6D /* CJKeyboardBarTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 594BBA831C103D4F004B0E6D /* CJKeyboardBarTextFieldUITests.m */; };
+		594BBA931C103DB3004B0E6D /* CJKeyboardBarTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 594BBA921C103DB3004B0E6D /* CJKeyboardBarTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		594BBA751C103D4E004B0E6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 594BBA531C103D4E004B0E6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 594BBA5A1C103D4E004B0E6D;
+			remoteInfo = CJKeyboardBarTextField;
+		};
+		594BBA801C103D4E004B0E6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 594BBA531C103D4E004B0E6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 594BBA5A1C103D4E004B0E6D;
+			remoteInfo = CJKeyboardBarTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		594BBA5B1C103D4E004B0E6D /* CJKeyboardBarTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJKeyboardBarTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		594BBA5F1C103D4E004B0E6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		594BBA611C103D4E004B0E6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		594BBA621C103D4E004B0E6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		594BBA641C103D4E004B0E6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		594BBA651C103D4E004B0E6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		594BBA681C103D4E004B0E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		594BBA6A1C103D4E004B0E6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		594BBA6D1C103D4E004B0E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		594BBA6F1C103D4E004B0E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594BBA741C103D4E004B0E6D /* CJKeyboardBarTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJKeyboardBarTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		594BBA781C103D4E004B0E6D /* CJKeyboardBarTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJKeyboardBarTextFieldTests.m; sourceTree = "<group>"; };
+		594BBA7A1C103D4E004B0E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594BBA7F1C103D4E004B0E6D /* CJKeyboardBarTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJKeyboardBarTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		594BBA831C103D4F004B0E6D /* CJKeyboardBarTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJKeyboardBarTextFieldUITests.m; sourceTree = "<group>"; };
+		594BBA851C103D4F004B0E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594BBA911C103DB3004B0E6D /* CJKeyboardBarTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJKeyboardBarTextField.h; sourceTree = "<group>"; };
+		594BBA921C103DB3004B0E6D /* CJKeyboardBarTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJKeyboardBarTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		594BBA581C103D4E004B0E6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594BBA711C103D4E004B0E6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594BBA7C1C103D4E004B0E6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		594BBA521C103D4E004B0E6D = {
+			isa = PBXGroup;
+			children = (
+				594BBA5D1C103D4E004B0E6D /* CJKeyboardBarTextField */,
+				594BBA771C103D4E004B0E6D /* CJKeyboardBarTextFieldTests */,
+				594BBA821C103D4F004B0E6D /* CJKeyboardBarTextFieldUITests */,
+				594BBA5C1C103D4E004B0E6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		594BBA5C1C103D4E004B0E6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				594BBA5B1C103D4E004B0E6D /* CJKeyboardBarTextField.app */,
+				594BBA741C103D4E004B0E6D /* CJKeyboardBarTextFieldTests.xctest */,
+				594BBA7F1C103D4E004B0E6D /* CJKeyboardBarTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		594BBA5D1C103D4E004B0E6D /* CJKeyboardBarTextField */ = {
+			isa = PBXGroup;
+			children = (
+				594BBA611C103D4E004B0E6D /* AppDelegate.h */,
+				594BBA621C103D4E004B0E6D /* AppDelegate.m */,
+				594BBA641C103D4E004B0E6D /* ViewController.h */,
+				594BBA651C103D4E004B0E6D /* ViewController.m */,
+				594BBA671C103D4E004B0E6D /* Main.storyboard */,
+				594BBA911C103DB3004B0E6D /* CJKeyboardBarTextField.h */,
+				594BBA921C103DB3004B0E6D /* CJKeyboardBarTextField.m */,
+				594BBA6A1C103D4E004B0E6D /* Assets.xcassets */,
+				594BBA6C1C103D4E004B0E6D /* LaunchScreen.storyboard */,
+				594BBA6F1C103D4E004B0E6D /* Info.plist */,
+				594BBA5E1C103D4E004B0E6D /* Supporting Files */,
+			);
+			path = CJKeyboardBarTextField;
+			sourceTree = "<group>";
+		};
+		594BBA5E1C103D4E004B0E6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				594BBA5F1C103D4E004B0E6D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		594BBA771C103D4E004B0E6D /* CJKeyboardBarTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				594BBA781C103D4E004B0E6D /* CJKeyboardBarTextFieldTests.m */,
+				594BBA7A1C103D4E004B0E6D /* Info.plist */,
+			);
+			path = CJKeyboardBarTextFieldTests;
+			sourceTree = "<group>";
+		};
+		594BBA821C103D4F004B0E6D /* CJKeyboardBarTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				594BBA831C103D4F004B0E6D /* CJKeyboardBarTextFieldUITests.m */,
+				594BBA851C103D4F004B0E6D /* Info.plist */,
+			);
+			path = CJKeyboardBarTextFieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		594BBA5A1C103D4E004B0E6D /* CJKeyboardBarTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594BBA881C103D4F004B0E6D /* Build configuration list for PBXNativeTarget "CJKeyboardBarTextField" */;
+			buildPhases = (
+				594BBA571C103D4E004B0E6D /* Sources */,
+				594BBA581C103D4E004B0E6D /* Frameworks */,
+				594BBA591C103D4E004B0E6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CJKeyboardBarTextField;
+			productName = CJKeyboardBarTextField;
+			productReference = 594BBA5B1C103D4E004B0E6D /* CJKeyboardBarTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		594BBA731C103D4E004B0E6D /* CJKeyboardBarTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594BBA8B1C103D4F004B0E6D /* Build configuration list for PBXNativeTarget "CJKeyboardBarTextFieldTests" */;
+			buildPhases = (
+				594BBA701C103D4E004B0E6D /* Sources */,
+				594BBA711C103D4E004B0E6D /* Frameworks */,
+				594BBA721C103D4E004B0E6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594BBA761C103D4E004B0E6D /* PBXTargetDependency */,
+			);
+			name = CJKeyboardBarTextFieldTests;
+			productName = CJKeyboardBarTextFieldTests;
+			productReference = 594BBA741C103D4E004B0E6D /* CJKeyboardBarTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		594BBA7E1C103D4E004B0E6D /* CJKeyboardBarTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594BBA8E1C103D4F004B0E6D /* Build configuration list for PBXNativeTarget "CJKeyboardBarTextFieldUITests" */;
+			buildPhases = (
+				594BBA7B1C103D4E004B0E6D /* Sources */,
+				594BBA7C1C103D4E004B0E6D /* Frameworks */,
+				594BBA7D1C103D4E004B0E6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594BBA811C103D4E004B0E6D /* PBXTargetDependency */,
+			);
+			name = CJKeyboardBarTextFieldUITests;
+			productName = CJKeyboardBarTextFieldUITests;
+			productReference = 594BBA7F1C103D4E004B0E6D /* CJKeyboardBarTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		594BBA531C103D4E004B0E6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "贾克利";
+				TargetAttributes = {
+					594BBA5A1C103D4E004B0E6D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					594BBA731C103D4E004B0E6D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 594BBA5A1C103D4E004B0E6D;
+					};
+					594BBA7E1C103D4E004B0E6D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 594BBA5A1C103D4E004B0E6D;
+					};
+				};
+			};
+			buildConfigurationList = 594BBA561C103D4E004B0E6D /* Build configuration list for PBXProject "CJKeyboardBarTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 594BBA521C103D4E004B0E6D;
+			productRefGroup = 594BBA5C1C103D4E004B0E6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				594BBA5A1C103D4E004B0E6D /* CJKeyboardBarTextField */,
+				594BBA731C103D4E004B0E6D /* CJKeyboardBarTextFieldTests */,
+				594BBA7E1C103D4E004B0E6D /* CJKeyboardBarTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		594BBA591C103D4E004B0E6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594BBA6E1C103D4E004B0E6D /* LaunchScreen.storyboard in Resources */,
+				594BBA6B1C103D4E004B0E6D /* Assets.xcassets in Resources */,
+				594BBA691C103D4E004B0E6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594BBA721C103D4E004B0E6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594BBA7D1C103D4E004B0E6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		594BBA571C103D4E004B0E6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594BBA661C103D4E004B0E6D /* ViewController.m in Sources */,
+				594BBA631C103D4E004B0E6D /* AppDelegate.m in Sources */,
+				594BBA931C103DB3004B0E6D /* CJKeyboardBarTextField.m in Sources */,
+				594BBA601C103D4E004B0E6D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594BBA701C103D4E004B0E6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594BBA791C103D4E004B0E6D /* CJKeyboardBarTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594BBA7B1C103D4E004B0E6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594BBA841C103D4F004B0E6D /* CJKeyboardBarTextFieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		594BBA761C103D4E004B0E6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 594BBA5A1C103D4E004B0E6D /* CJKeyboardBarTextField */;
+			targetProxy = 594BBA751C103D4E004B0E6D /* PBXContainerItemProxy */;
+		};
+		594BBA811C103D4E004B0E6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 594BBA5A1C103D4E004B0E6D /* CJKeyboardBarTextField */;
+			targetProxy = 594BBA801C103D4E004B0E6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		594BBA671C103D4E004B0E6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594BBA681C103D4E004B0E6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		594BBA6C1C103D4E004B0E6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594BBA6D1C103D4E004B0E6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		594BBA861C103D4F004B0E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		594BBA871C103D4F004B0E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		594BBA891C103D4F004B0E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CJKeyboardBarTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Corey.CJKeyboardBarTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		594BBA8A1C103D4F004B0E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CJKeyboardBarTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Corey.CJKeyboardBarTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		594BBA8C1C103D4F004B0E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CJKeyboardBarTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Corey.CJKeyboardBarTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CJKeyboardBarTextField.app/CJKeyboardBarTextField";
+			};
+			name = Debug;
+		};
+		594BBA8D1C103D4F004B0E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CJKeyboardBarTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Corey.CJKeyboardBarTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CJKeyboardBarTextField.app/CJKeyboardBarTextField";
+			};
+			name = Release;
+		};
+		594BBA8F1C103D4F004B0E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CJKeyboardBarTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Corey.CJKeyboardBarTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CJKeyboardBarTextField;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		594BBA901C103D4F004B0E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CJKeyboardBarTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Corey.CJKeyboardBarTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CJKeyboardBarTextField;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		594BBA561C103D4E004B0E6D /* Build configuration list for PBXProject "CJKeyboardBarTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594BBA861C103D4F004B0E6D /* Debug */,
+				594BBA871C103D4F004B0E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594BBA881C103D4F004B0E6D /* Build configuration list for PBXNativeTarget "CJKeyboardBarTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594BBA891C103D4F004B0E6D /* Debug */,
+				594BBA8A1C103D4F004B0E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		594BBA8B1C103D4F004B0E6D /* Build configuration list for PBXNativeTarget "CJKeyboardBarTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594BBA8C1C103D4F004B0E6D /* Debug */,
+				594BBA8D1C103D4F004B0E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		594BBA8E1C103D4F004B0E6D /* Build configuration list for PBXNativeTarget "CJKeyboardBarTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594BBA8F1C103D4F004B0E6D /* Debug */,
+				594BBA901C103D4F004B0E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 594BBA531C103D4E004B0E6D /* Project object */;
+}
